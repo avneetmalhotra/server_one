@@ -10,7 +10,7 @@ set :branch, :master
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
-set :deploy_to, 'home/deploy/server_one'
+set :deploy_to, '/home/deploy/server_one'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -58,3 +58,4 @@ set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :puma_preload_app, false
+
